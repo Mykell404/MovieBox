@@ -3,9 +3,9 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div className=" bg-[url('assets/images/j-wick.png')] bg-cover p-4 text-white">
+    <div className=" bg-[url('assets/images/j-wick.png')] bg-cover px-24 py-8 text-white">
       <Navbar />
-      <div className="flex ">
+      <div className="flex justify-between">
         <div className="my-8">
           <p className="text-5xl font-medium leading-[56px]">
             John Wick 3 :
@@ -25,7 +25,17 @@ function Header() {
             <p>Watch Trailer</p>
           </div>
         </div>
-        <div></div>
+        <div className="te flex  flex-col items-center justify-center text-lg">
+          <p>1</p>
+          <p>2</p>
+          <div className="flex text-center text-3xl">
+            <p>-</p>
+            <p>3</p>
+          </div>
+
+          <p>4</p>
+          <p>5</p>
+        </div>
       </div>
     </div>
   );
