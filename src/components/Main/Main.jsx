@@ -26,9 +26,9 @@ function Main() {
       {movies.length === 0 ? (
         <p>Loading...</p>
       ) : (
-        <div className="grid grid-cols-4 gap-x-24 gap-y-4">
+        <div className="mt-8 grid grid-cols-4 gap-x-24 gap-y-4">
           {movies.map((movie) => (
-            <Card movie={movie} />
+            <Card movie={movie} key={movie.id} />
           ))}
         </div>
       )}

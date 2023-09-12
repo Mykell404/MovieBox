@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import Footer from "./components/Main/Footer";
 import Main from "./components/Main/Main";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="h-screen font-dmsans">
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 }
